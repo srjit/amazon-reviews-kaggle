@@ -56,7 +56,9 @@ else:
 
     wordvectors, invalid_words = vectorutils.save_word_vectors(vocabulary, project)
     
+
 print("Word vectors created...")
+
 import gc
 gc.collect()
 
